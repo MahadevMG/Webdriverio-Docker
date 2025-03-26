@@ -1,15 +1,37 @@
 # Webdriverio-Docker
-Dockerize the webdriverio project
 
-### install docker 
-https://docs.docker.com/get-started/get-docker/
+Dockerize the WebdriverIO project.
 
+## Getting Started
 
-### clone the repo 
-git clone git@github.com:MahadevMG/Webdriverio-Docker.git
+Follow these instructions to set up and run the WebdriverIO project within a Docker container.
 
-### Build the docker image
-docker build -t wdio_docker .
+### Prerequisites
 
-### Run the docker image
-docker run wdio_docker
+- Ensure you have Docker installed on your machine. You can install Docker by following the instructions at [Get Docker](https://docs.docker.com/get-started/get-docker/).
+
+### Installation
+
+1. **Clone the Repository**
+
+    ```sh
+    git clone git@github.com:MahadevMG/Webdriverio-Docker.git
+    cd Webdriverio-Docker
+    ```
+
+2. **Build the Docker Image**
+
+    ```sh
+    docker build -t wdio_docker .
+    ```
+
+3. **Run the Docker Image**
+
+    ```sh
+    docker run wdio_docker
+    ```
+
+## Usage
+
+After running the Docker image, the WebdriverIO project will be set up and ready to use within the Docker container.
+
